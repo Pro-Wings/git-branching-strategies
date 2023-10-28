@@ -8,9 +8,10 @@ public class MyService {
 		System.out.println("inside doSomething of MyService class!!");
 	}
 
-	public void doSomething(int i)
+	public void doSomething(int i, int j)
 	{
 		System.out.println("inside doSomething(int i) of MyService class!!");
+		System.out.println("inside doSomething(int i, int j) of MyService class!!");
 	}
 
 }
