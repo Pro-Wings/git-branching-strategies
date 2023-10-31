@@ -34,8 +34,8 @@ public class Student {
 		this.address = address;
 	}
 	@Override
-	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", address=" + address + "]";
+	public String toString(StringBuffer sb) {
+		return sb.append(" hello");
 	}
 	
 	 
