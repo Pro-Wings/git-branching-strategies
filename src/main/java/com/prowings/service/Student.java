@@ -33,9 +33,8 @@ public class Student {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	@Override
-	public String toString(StringBuffer sb) {
-		return sb.append(" hello");
+	public String toString(String string)throws RuntimeException {
+		return "Student!!!";
 	}
 	
 	 
