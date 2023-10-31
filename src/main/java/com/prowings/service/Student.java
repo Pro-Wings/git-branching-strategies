@@ -33,6 +33,7 @@ public class Student {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
 	public String toString(String string)throws RuntimeException {
 		return "Student!!!";
 	}
